@@ -5,7 +5,7 @@
 
 #### 后台管理-接口
 |接口名称|接口地址|请求方式|
-| :- | -: | -: | :- |
+| :- | -: | -: |
 | 登录 | a/login | post |
 | 获取七牛图片token | a/qiniu/token | get |
 | 获取博客配置 | a/webConfig | get |
@@ -43,7 +43,7 @@
 | 修改 我的简历 页面 | a/webConfig/modifyResume | post |
 #### 博客-接口
 |接口名称|接口地址|请求方式|
-| :- | -: | -: | :- |
+| :- | -: | -: |
 | 获取 关于我 页面 | w/getAbout | get |
 | 获取文章归档列表 | w/article/archives | get |
 | 获取文章信息 | w/article | get |
