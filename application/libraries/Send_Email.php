@@ -26,9 +26,9 @@ class Send_Email {
         //SMTP 服务器地址。
         $this->config['smtp_host'] = 'ssl://smtp.qq.com';
         //发件人邮箱地址
-        $this->config['smtp_user'] = 'codebearsh@qq.com';
+        $this->config['smtp_user'] = '';
         //腾讯QQ邮箱开启POP3/SMTP服务或者IMAP/SMTP服务时的授权码
-        $this->config['smtp_pass'] = 'kgjywqqadlnmcahd';
+        $this->config['smtp_pass'] = '';
         //发件人名称
         $this->config['smtp_name'] = 'CodeBear博客';
         //SMTP 端口
