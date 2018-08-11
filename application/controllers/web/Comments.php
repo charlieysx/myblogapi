@@ -63,7 +63,7 @@ class Comments extends Base_Controller
         $this->comments->add($data['articleId'], $data['parentId'], $data['replyId'], $data['name'], $data['content'], $data['sourceContent'], $data['email']);
 
         $message = '来自 '.$data['name'].' 的'.($data['articleId'] == '-1' ? '留言' : '评论');
-        $this->sendQqEmail->sendMsg('249900679@qq.com', $message, $data['sourceContent']);
+        // $this->sendQqEmail->sendMsg('249900679@qq.com', $message, $data['sourceContent']);
 
         $this->return_success(($data['articleId'] == '-1' ? '留言' : '评论').'成功');
     }
